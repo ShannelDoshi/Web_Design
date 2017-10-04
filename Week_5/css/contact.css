@@ -1,0 +1,83 @@
+/*
+The default style sheet for the entire site.
+*/
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { margin: 0 auto;
+}
+  
+ 
+
+header {
+    background-color: #FFF;
+    
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style:normal;
+    font-kerning: auto;
+    font-size: 30px;
+    letter-spacing: 25px;
+    
+} 
+
+
+nav ul {
+    background-color: #FFF;
+    list-style-type: none;
+    text-align: left;
+      font-family: 'Josefin Sans', sans-serif;
+    font-style:normal;
+    font-kerning: auto;
+    font-size: 10px;
+    letter-spacing: 5px;
+      }
+
+
+nav li {
+   display:grid ;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+    text-decoration: none;
+}
+
+.gallery{
+    padding-left: 450px;
+    padding-top: 50px;
+}
+
+main {
+    background-color: #FFF;
+    min-height: 600px;
+    background-color: #FFF;
+    list-style-type: none;
+    text-align: left;
+      font-family: 'Josefin Sans', sans-serif;
+    font-style:normal;
+    font-kerning: auto;
+    font-size: 15px;
+    padding-left: 300px;
+  
+}
+
+
+.text{
+    background-color: #FFF;
+    list-style-type: none;
+    text-align: center;
+      font-family: 'Josefin Sans', sans-serif;
+    font-style:normal;
+    font-kerning: auto;
+    font-size: 15px;
+    padding-left: 300px;
+    
+    
+     }
