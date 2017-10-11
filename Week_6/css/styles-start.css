@@ -1,0 +1,99 @@
+/*
+The default style sheet for the entire site.
+*/
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { margin: 0 auto;
+}
+  
+  
+    main {
+    background: url("../img/background.png") no-repeat center center fixed;*/
+    background-attachment: fixed;
+    background-image: url(../img/background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #FFF;
+    
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style:normal;
+    font-kerning: auto;
+    font-size: 30px;
+    letter-spacing: 25px;
+    
+} 
+
+
+nav ul {
+    background-color: #FFF;
+    list-style-type: none;
+    text-align: left;
+      font-family: 'Josefin Sans', sans-serif;
+    font-style:normal;
+    font-kerning: auto;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: black;
+      }
+
+
+a:link {
+    text-decoration: none;
+}
+
+visited link 
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+mouse over link 
+a:hover {
+    color: lightgray;
+     text-decoration: none;
+}
+
+nav li {
+   
+    padding-left: 60px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+
+section {
+   margin: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+main {
+    background-color: #FFF;
+    min-height: 600px;
+}
+
+
+footer {
+   
+    padding-left: 530px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
